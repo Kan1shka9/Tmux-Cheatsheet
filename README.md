@@ -10,7 +10,7 @@ sudo apt install tmux
 
 **Key Combo**|**Description**
 :-----:|:-----:
-New Session |tmux new -s <SESSION\_NAME>
+tmux new -s <SESSION\_NAME> |New Session
 tmux ls |list all tmux sessions
 tmux attach -t <SESSION\_NAME>|Attach to a particular tmux session
 Ctrl+b |Prefix key
